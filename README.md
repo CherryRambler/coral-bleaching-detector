@@ -6,6 +6,12 @@ A deep-learning model that classifies a coral photo as **healthy** or **bleached
 
 **Syllabus link:** Unit III (climate impacts on fisheries and tourism, ocean warming evidence), Unit I (greenhouse effect, ocean heat uptake) and Unit V (monitoring for adaptation and public awareness).
 
+## Live demo
+
+**Try the deployed app:** [coral-bleaching-detector on Streamlit Cloud](https://coral-bleaching-detector-g2bqqqk2ifzmemxfjnkig2.streamlit.app/)
+
+No installation needed: open the link, upload or take a coral photo, and see the result and heatmap. (If the app has been idle, it may take a few seconds to wake up.)
+
 ## Project files
 
 | File | What it is |
