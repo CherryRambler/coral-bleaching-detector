@@ -1,0 +1,8 @@
+#Virtual environment
+.venv/
+
+#large data and output files
+coral_data_clean/
+coral_outputs/
+coral_outputs.zip
+coral_model.keras

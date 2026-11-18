@@ -1,0 +1,52 @@
+{
+  "class_names": [
+    "healthy",
+    "bleached"
+  ],
+  "threshold": 0.59,
+  "tta": true,
+  "img_size": 224,
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "dataset": "kaggle.com/datasets/vencerlanz09/healthy-and-bleached-corals-image-classification",
+  "images_used": {
+    "total": 905,
+    "healthy": 423,
+    "bleached": 482
+  },
+  "images_skipped": {
+    "no class folder": 0,
+    "duplicate": 18,
+    "unreadable": 0
+  },
+  "split": {
+    "train": 633,
+    "validation": 136,
+    "test": 136
+  },
+  "epochs_trained": {
+    "stage1_head": 20,
+    "stage2_finetune": 15
+  },
+  "training_settings": {
+    "finetune_layers": 30,
+    "label_smoothing": 0.05,
+    "augmentation": "flip, rotate 15%, zoom 15%, shift 10%"
+  },
+  "training_minutes": 14.9,
+  "test_metrics": {
+    "accuracy": 0.8015,
+    "accuracy_at_0.5_threshold": 0.7868,
+    "roc_auc": 0.8804,
+    "bleached_precision": 0.8571,
+    "bleached_recall": 0.75,
+    "healthy_precision": 0.7534,
+    "healthy_recall": 0.8594,
+    "macro_f1": 0.8015,
+    "misclassified": 27
+  },
+  "baseline_colour_only": {
+    "accuracy": 0.7721,
+    "roc_auc": 0.8403
+  }
+}

@@ -1,0 +1,8 @@
+# Extra packages for running coral_bleaching_detector.ipynb locally (Colab already has these).
+# Install with:  pip install -r requirements-notebook.txt
+-r requirements.txt
+scikit-learn
+kagglehub
+ipykernel
+# Optional, only for RUN_GRADIO_DEMO = True (the notebook installs it itself if needed):
+# gradio
